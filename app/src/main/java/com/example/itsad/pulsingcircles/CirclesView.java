@@ -100,7 +100,7 @@ public class CirclesView extends View {
         // we need to calculate the angle
         double angle = Math.atan2(adjustedY, adjustedX);
 
-        // thi is in rad, need in degrees
+        // this is in rad, need in degrees
         double angleDegrees = ((angle + Math.PI) / (Math.PI * 2)) * 360;
 
         // these degrees need to be adjusted to the drawing degrees we use
