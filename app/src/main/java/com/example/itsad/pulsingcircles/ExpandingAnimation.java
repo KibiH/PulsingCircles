@@ -5,9 +5,9 @@ import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
 public class ExpandingAnimation extends Animation {
-    final int targetHeight;
-    View view;
-    int startHeight;
+    private final int targetHeight;
+    private View view;
+    private int startHeight;
 
     public ExpandingAnimation(View view, int targetHeight, int startHeight) {
         this.view = view;
